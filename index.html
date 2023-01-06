@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My App</title>
+  <style>
+    .responsive-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div> 
+    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
+  </div>
+  <script>
+    var path = new URL(window.location);
+          var formUrl = path.searchParams.get('app');
+          var url = decodeURIComponent(formUrl)
+          document.getElementById('myframe').src = url
+  </script>
+</body>
+</html>

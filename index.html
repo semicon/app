@@ -20,9 +20,9 @@
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
   </div>
   <script>
-    var path = new URL(window.location);
+    var apps = new URL(window.location);
     console.log(path)
-          var formUrl = path.searchParams.get('path');
+          var formUrl = path.searchParams.get('apps');
           var url = decodeURIComponent(formUrl)
     
           document.getElementById('myframe').src = url

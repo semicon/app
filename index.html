@@ -20,14 +20,10 @@
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
   </div>
   <script>
-    var apps = new URL(window.location);
-    console.log(apps)
-          var formUrl = apps.searchParams.get('apps');
-          var url = decodeURIComponent(formUrl)
-    
+    const apps = new URL(window.location);
+    const formUrl = apps.searchParams.get('apps');
+    const url = decodeURIComponent(formUrl)
           document.getElementById('myframe').src = url
-    console.log(url)
-    console.log(formUrl)
   </script>
 </body>
 </html>

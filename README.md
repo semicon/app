@@ -5,11 +5,7 @@ https://semicon.github.io/app/?apps=[url webapps]
 https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEYcTuj-nCd37T5fyE5nlG7QAm_0dn5GfYWrTX9l096pP5695gvPzHe91jaS2b6GD3Cg/exec
 
 # Code
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My App</title>
+
   <style>
     .responsive-iframe {
       position: absolute;
@@ -22,8 +18,7 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
       border: none;
     }
   </style>
-</head>
-<body>
+
   <div> 
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
   </div>
@@ -33,5 +28,4 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
     const url = decodeURIComponent(formUrl)
           document.getElementById('myframe').src = url
   </script>
-</body>
-</html>
+

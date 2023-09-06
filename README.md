@@ -1,4 +1,4 @@
-# link ตัดสีแถบเทา webapps
+# link ตัดแถบสีเทา webapps
 https://semicon.github.io/app/?apps=[url webapps]
 
 # example:

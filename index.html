@@ -21,8 +21,10 @@
   </div>
   <script>
     var path = new URL(window.location);
-          var formUrl = path.searchParams.get('./app');
+    console.log(path)
+          var formUrl = path.searchParams.get('app');
           var url = decodeURIComponent(formUrl)
+    console.log(url)
           document.getElementById('myframe').src = url
   </script>
 </body>

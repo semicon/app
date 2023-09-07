@@ -1,4 +1,6 @@
-# link ตัดแถบสีเทา webapps
+![image](https://github.com/semicon/app/assets/30399464/bc6fe924-844e-4366-a139-b11d9116492b)
+
+# link ปิดแถบแจ้งเตือน Google Apps Script
 https://semicon.github.io/app/?apps=[url webapps]
 
 # example:

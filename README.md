@@ -23,7 +23,7 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
 
 
   <div> 
-    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
+    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
   </div>
 
   

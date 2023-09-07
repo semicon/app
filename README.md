@@ -20,14 +20,17 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
       border: none;
     }
   </style>
-</code>
+
+
   <div> 
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen="allowFullScreen"></iframe>
   </div>
+
+  
   <script>
     const apps = new URL(window.location);
     const formUrl = apps.searchParams.get('apps');
     const url = decodeURIComponent(formUrl)
           document.getElementById('myframe').src = url
   </script>
-
+</code>

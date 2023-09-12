@@ -4,6 +4,7 @@
 1) สร้าง repo ของ github และสร้างไฟล์ index.html ใน repo
 2) Build and deployment pages
 3) เรียกใช้ URL และใส่  parameter URL.exec ต่อท้าย
+   
 https://semicon.github.io/app/?apps=[URL.exec webapps]
 
 # example:

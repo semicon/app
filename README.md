@@ -1,7 +1,10 @@
 ![image](https://github.com/semicon/app/assets/30399464/bc6fe924-844e-4366-a139-b11d9116492b)
 
 # link ปิดแถบแจ้งเตือน Google Apps Script
-https://semicon.github.io/app/?apps=[url webapps]
+1) สร้าง repo ของ github และสร้างไฟล์ index.html ใน repo
+2) Build and deployment pages
+3) ใส่  parameter URL.exec
+https://semicon.github.io/app/?apps=[URL.exec webapps]
 
 # example:
 https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEYcTuj-nCd37T5fyE5nlG7QAm_0dn5GfYWrTX9l096pP5695gvPzHe91jaS2b6GD3Cg/exec

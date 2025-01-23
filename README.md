@@ -28,12 +28,15 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
   </style>
 
 
-// HTML Tag
+
   <div> 
+    // HTML Tag
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
   </div>
 
  
+
+<br><br>
  // Java Script 
   <script>
     const apps = new URL(window.location);

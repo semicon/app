@@ -13,6 +13,8 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
 # Code
 
 <pre>
+
+   
    // style CSS
   <style>
     .responsive-iframe {
@@ -27,17 +29,15 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
     }
   </style>
 
-
-
   <div> 
-    // HTML Tag
-    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
+  // HTML Tag
+  <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
   </div>
 
  
 
 <br><br>
- // Java Script 
+  // Java Script 
   <script>
     const apps = new URL(window.location);
     const formUrl = apps.searchParams.get('apps');

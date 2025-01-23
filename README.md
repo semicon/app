@@ -11,8 +11,9 @@ https://semicon.github.io/app/?apps=[URL.exec webapps]
 https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEYcTuj-nCd37T5fyE5nlG7QAm_0dn5GfYWrTX9l096pP5695gvPzHe91jaS2b6GD3Cg/exec
 
 # Code
-// style CSS
+
 <pre>
+   // style CSS
   <style>
     .responsive-iframe {
       position: absolute;
@@ -26,11 +27,13 @@ https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEY
     }
   </style>
 
+
 // HTML Tag
   <div> 
     <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
   </div>
 
+ 
  // Java Script 
   <script>
     const apps = new URL(window.location);

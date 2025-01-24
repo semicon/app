@@ -10,6 +10,7 @@ https://semicon.github.io/app/?apps= [URL.exec webapps]
 </pre>
 ### example:
 https://semicon.github.io/app/?apps=https://script.google.com/macros/s/AKfycbzEYcTuj-nCd37T5fyE5nlG7QAm_0dn5GfYWrTX9l096pP5695gvPzHe91jaS2b6GD3Cg/exec
+![image](https://github.com/user-attachments/assets/a05edb64-4238-4470-9a3f-7d60049df348)
 
 
   
